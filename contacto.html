@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctenos</title>
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+
+    </header>
+
+
+    <!-- Navigation -->
+
+    <nav>
+        <p><a href="index.html" target="_blank">Volver atras</a></p> <!-- Etiqueta Ancla Anchor -->
+    </nav>
+
+    <main>
+        <section>
+
+            <!-- Titulo -->
+            <h3>Contáctenos</h3>
+
+            <!-- Formulario -->
+            <form action="./contactoRegistro.html">
+                <div>
+                    <label for="txtNombre">Ingrese su nombre</label>
+                    <input type="text" name="txtNombre" id="txtNombre" maxlength="50" required>
+                </div>
+                
+                <div>
+                    <label for="txtNombre">Ingrese su apellido</label>
+                    <input type="text" name="txtApellido" id="txtApellido" maxlength="50" required>
+                </div>
+                
+                <div>
+                    <label for="txtEmail">Ingrese su correo</label>
+                    <input type="email" name="txtEmail" id="txtEmail" maxlength="128" required>
+                </div>
+
+                <div>
+                    <label for="telefono">Ingrese su teléfono o celular</label>
+                    <input type="tel" name="telefono" id="telefono" maxlength="13" minlength="7">
+                </div>
+
+                <!-- Select / seleccion de Valor -->
+                <div>
+                    <label for="txtAsunto">Seleccione su asunto</label>
+                    <select name="txtAsunto" id="txtAsunto" required>
+                        <option value="">Sleccione una opción</option>
+                        <option value="comprarMayor">Comprar productos por mayor</option>
+                        <option value="consultaDevolucion">Consulta para produccion de servicio</option>
+                        <option value="consultaGeneral">Hacer consulta general</option>
+                        
+                    </select>
+                </div>
+
+                <!-- TextArea / Cuerpo de texto -->
+                <div>
+                    <label for="bodyDetalle">Ingrese su Mensaje</label>
+                    <textarea name="bodyDetalle" id="bodyDetalle" cols="30" rows="8" required></textarea>
+                </div>
+
+                <!-- Input Checkbox -->
+                <div>
+                    <input type="checkbox" name="bolAutorizo" >
+                    <label>Autorizo el envío de información</label>
+                </div>
+
+                <!-- Input Submit / Boton Enviar -->
+                <div>
+                    <input type="submit">
+                </div>
+            </form>
+        </section>
+
+        <!-- Datos o Contacto -->
+        <section>
+            <p> Av. los Alamos de Punta Hermosa
+
+            </p>
+        </section>
+
+    </main>
+</body>
+</html>

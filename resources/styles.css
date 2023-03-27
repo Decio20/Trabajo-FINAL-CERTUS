@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.minav{
+    padding: 5px 85px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #A7571C;
+}
+
+.minav .primero{
+    color: #fff;
+    font-size: 25px;
+}
+
+.input_search{
+    width: 500px;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 5px 0px 0px 5px;
+    border-style: none;
+
+}
+
+.btn_lupa{
+    border-radius: 10px; 
+    background-color: #fff;
+    border-style: none;
+}
+
+.btn_lupa i{
+    color: orange;
+    font-size: 25px;
+    padding-right: 7px;
+
+}
+
+.segundo{
+    margin-left: -20px;
+}
+
+.tercero{
+    display: flex;
+}
+
+.tercero .btn_lupa{
+    border-radius: 0px 5px 5px 0px;
+    margin-left: -5px;
+}
+
+.cuarto, .quinto{
+    color: #fff;
+    font-size: 18px;
+    padding-right: 20px;
+    border-right: 1px solid #645e5e;
+    
+}
+
+.sexto{
+    color: #fff;
+    font-size: 18px;
+    padding: 2px;
+}
+
+.cuarto i, .quinto i, .sexto i{
+    margin-right: 10px;
+}
+
+.primero a{
+    margin-right: 20px;
+}
+
+.title_name .title_name_first{
+    height: 70px;
+    background-color: #6A2112;
+    color: #fff;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+}
+
+main{
+    background-color: #A7571C;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    background-color: white;
+    width: 270px;
+    height: 500px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.card-image{
+    background-color: #645e5e;
+    height: 400px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.card-1{
+    background-image: url('../images/ruge.jpg');
+}
+
+.card-2{
+    background-image: url('../images/habitos.jpg');
+}
+
+.card-3{
+    background-image: url('../images/diario_ha.jpg');
+}
+
+.card-4{
+    background-image: url('../images/volver.jpg');
+}
