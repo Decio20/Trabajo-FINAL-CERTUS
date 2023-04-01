@@ -4,7 +4,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.minav{
+#barra{
     padding: 5px 85px;
     height: 50px;
     display: flex;
@@ -13,7 +13,7 @@
     background-color: #A7571C;
 }
 
-.minav .primero{
+#barra .primero{
     color: #fff;
     font-size: 25px;
 }
@@ -61,6 +61,11 @@
     
 }
 
+.cuarto a{
+    text-decoration: none;
+    color: white;
+}
+
 .sexto{
     color: #fff;
     font-size: 18px;
@@ -86,8 +91,23 @@
     
 }
 
+.title_name .title_name_first:hover{
+    font-size: 22px;
+    transition: all 1.3s ease;
+}
+
 main{
     background-color: #A7571C;
+}
+
+main article h2{
+    text-align: center;
+    padding-top: 8px;
+}
+
+main article h2:hover{
+    color:aliceblue;
+    transition: all 1.3s ease;
 }
 
 .container{
@@ -101,7 +121,17 @@ main{
     height: 500px;
     margin: 10px;
     border-radius: 15px;
+    text-align: center;
 }
+
+.card:hover{
+    background-color: rgb(62, 62, 62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.06);
+    transition: all 1.1s ease;
+}
+
 
 .card-image{
     background-color: #645e5e;
@@ -109,6 +139,15 @@ main{
     margin-bottom: 15px;
     background-size: cover;
     border-radius: 15px 15px 0 0;
+}
+
+.card button{
+    padding: 10px;
+    background-color: #6A2112;
+    border-radius: 12px;
+    border-color: none;
+    border-style: none;
+    color:#fff;
 }
 
 .card-1{
@@ -156,4 +195,13 @@ main{
 
 .card-12{
     background-image: url('../images/spy.jpg');
+}
+
+#Pie{
+    height: 90px;
+    background-color: #6A2112;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    color:#fff;
 }

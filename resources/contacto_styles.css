@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #A7571C;
+}
+
+nav{
+    margin: 10px 0;
+}
+
+nav p a{
+    border-style: none;
+    border-radius: 12px;
+    text-decoration: none;
+    background-color: #A7571C;
+    color:#fff;
+    padding: 7px;
+    
+}
+
+nav p a:hover{
+    font-size: 20px;
+    border-color: black;
+    background-color: #fff;
+    color:#A7571C;
+}
+
+.btn-enviar{
+    border-style: none;
+    border-radius: 12px;
+    text-decoration: none;
+    background-color: #A7571C;
+    color:#fff;
+    padding: 7px;
+}
+
+.btn-enviar:hover{
+    font-size: 20px;
+    border-color: black;
+    background-color: #fff;
+    color:#A7571C;
+}

@@ -12,72 +12,85 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Header y Barra de navegación de la Página -->
     <header>
-        <nav class="minav">
+        <nav class="minav" id="barra">
 
+                <!-- Icono de navegación -->
                 <div class="primero">
                     <a><i class="fa-solid fa-bars"></i></a>
                 </div>
-    
+                
+                <!-- Icono de la Empresa -->
                 <div class="segundo">
-                    <a><img src="./images/logo-linio.svg" width="80px"></a>
+                    <a><img src="./images/romanillo.png" width="130px"></a>
                 </div>
           
+                <!-- Barra de buscador -->
                 <div class="tercero">
                     <input class="input_search" type="text" placeholder="Buscar producto">
                     <button class="btn_lupa"><i class="fa-solid fa-magnifying-glass"></i></button>
                 </div>
 
+                <!-- Botón de acceso de Usuario -->
                 <div class="cuarto">
-                    <a><i class="fa-regular fa-user"></i> Iniciar sesión</a>
+                    <a href="contacto.html" target="_blank"><i class="fa-regular fa-user"></i> Contacto </a>
                     
                 </div>
 
+                <!-- Botón para Hacer pedidos -->
                 <div class="quinto">
                     <a><i class="fa-solid fa-truck"></i> Mis Pedidos</a>
                 </div>
             
+                <!-- botón para ver el carrito -->
                 <div class="sexto">
                     <a><i class="fa-solid fa-cart-shopping"></i>Carrito</a>
                 </div>     
         </nav>
         <hr>
-        <header class="title_name">
+        <!-- titulo de la Página -->
+        <header class="title_name" div="titulo">
             <div class="title_name_first">
                 <h1><b>LIBRERÍA EL ROMANO</b></h1>
             </div>  
         </header>
     </header>
-    <hr>
-    <main>
+    <hr> <!-- Línea Vertical usada como separador -->
+
+    <!-- Contenido Principal de la página -->
+    <main id="cuerpo">
         <article>
             <h2>PRINCIPALES LIBROS</h2>
         </article>
 
+        <!-- Hay tres Contenedores con 4 imágenes cada Una -->
         <section class="container">
 
+            <!-- Los elementos con clase card son los elementos como opciones de
+            venta que se muestran en la página -->
             <div class="card">
                 <div class="card-image card-1"></div>
-                <h2>Title</h2>
-                <p>Some text</p>
+                <h2>Volver a Empezar</h2>
+                <button>Agregar al Carrito</button>
             </div>
 
             <div class="card">
                 <div class="card-image card-2"></div>
-                <h2>Title</h2>
-                <p>Some text</p>
+                <h2>Hábitos Atómicos</h2>
+                <button>Agregar al Carrito</button>
             </div>
 
             <div class="card">
                 <div class="card-image card-3"></div>
-                <h2>Title</h2>
-                <p>Some text</p>
+                <h2>El Diario de los Hábitos</h2>
+                <button>Agregar al Carrito</button>
             </div>
 
             <div class="card">
                 <div class="card-image card-4"></div>
-                <h2>Title</h2>
-                <p>Some text</p>
+                <h2>Volver a Empezar</h2>
+                <button>Agregar al Carrito</button>
             </div>
 
         </section>
@@ -86,26 +99,26 @@
 
             <div class="card">
                 <div class="card-image card-5"></div>
-                <h2>Title</h2>
-                <p>Some text</p>
+                <h2>El Diario de Ana Frank</h2>
+                <button>Agregar al Carrito</button>
             </div>
 
             <div class="card">
                 <div class="card-image card-6"></div>
-                <h2>Title</h2>
-                <p>Some text</p>
+                <h2>Con Luz Propia</h2>
+                <button>Agregar al Carrito</button>
             </div>
 
             <div class="card">
                 <div class="card-image card-7"></div>
-                <h2>Title</h2>
-                <p>Some text</p>
+                <h2>La Sombra</h2>
+                <button>Agregar al Carrito</button>
             </div>
 
             <div class="card">
                 <div class="card-image card-8"></div>
-                <h2>Title</h2>
-                <p>Some text</p>
+                <h2>Magia de tu Casa</h2>
+                <button>Agregar al Carrito</button>
             </div>
 
         </section>
@@ -114,29 +127,35 @@
 
             <div class="card">
                 <div class="card-image card-9"></div>
-                <h2>Title</h2>
-                <p>Some text</p>
+                <h2>La Odisea de Juan Bautista</h2>
+                <button>Agregar al Carrito</button>
             </div>
 
             <div class="card">
                 <div class="card-image card-10"></div>
-                <h2>Title</h2>
-                <p>Some text</p>
+                <h2>El Pupitre de Al Lado</h2>
+                <button>Agregar al Carrito</button>
             </div>
 
             <div class="card">
                 <div class="card-image card-11"></div>
-                <h2>Title</h2>
-                <p>Some text</p>
+                <h2>Jujutso Kaisen</h2>
+                <button>Agregar al Carrito</button>
             </div>
 
             <div class="card">
                 <div class="card-image card-12"></div>
-                <h2>Title</h2>
-                <p>Some text</p>
+                <h2>Spy Family</h2>
+                <button>Agregar al Carrito</button>
             </div>
 
         </section>
     </main>
+    <hr> <!-- Línea Vertical usada como separador -->
+
+    <!-- Parte Final de la Página -->
+    <footer id="Pie">
+        <h3>Desarrollado por Diego Chuchón 2023</h3>
+    </footer>
 </body>
 </html>
