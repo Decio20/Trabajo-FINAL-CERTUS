@@ -66,10 +66,18 @@
     color: white;
 }
 
+.quinto a{
+    cursor: pointer;
+}
+
 .sexto{
     color: #fff;
     font-size: 18px;
     padding: 2px;
+}
+
+.sexto a{
+    cursor: pointer;
 }
 
 .cuarto i, .quinto i, .sexto i{
@@ -84,20 +92,15 @@
     height: 70px;
     background-color: #6A2112;
     color: #fff;
-    font-size: 18px;
     display: flex;
     justify-content: center;
     align-items:center;
     
 }
 
-.title_name .title_name_first:hover{
-    font-size: 22px;
-    transition: all 1.3s ease;
-}
-
 main{
     background-color: #A7571C;
+    
 }
 
 main article h2{
@@ -113,11 +116,12 @@ main article h2:hover{
 .container{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
-.card{
+.container .card{
     background-color: white;
-    width: 270px;
+    width: 250px;
     height: 500px;
     margin: 10px;
     border-radius: 15px;
